@@ -26,10 +26,8 @@ if (isset($_POST['submit'])) {
 
 <body>
 
-    <!-- ################# Header Starts Here#######################--->
-
+    <!---------------------------- Header Starts Here --------------------------------->
     <header id="menu-jk">
-
         <div id="nav-head" class="header-nav">
             <div class="container">
                 <div class="row">
@@ -55,19 +53,13 @@ if (isset($_POST['submit'])) {
         </div>
     </header>
 
-    <!-- ################# Slider Starts Here#######################--->
-
+    <!------------------------------------ Slider Starts Here ------------------------------------->
     <div class="slider-detail">
-
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
                 <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
                 <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
             </ol>
-
-
-
-
 
             <div class="carousel-inner">
                 <div class="carousel-item ">
@@ -75,25 +67,17 @@ if (isset($_POST['submit'])) {
                     <div class="carousel-cover"></div>
                     <div class="carousel-caption vdg-cur d-none d-md-block">
                         <h5 class="animated bounceInDown">Hospital Management System</h5>
-
-
-
                     </div>
                 </div>
-
                 <div class="carousel-item active">
                     <img class="d-block w-100" src="assets/images/slider/slider_3.jpg" alt="Third slide">
                     <div class="carousel-cover"></div>
                     <div class="carousel-caption vdg-cur d-none d-md-block">
                         <h5 class="animated bounceInDown">Hospital Management System</h5>
-
-
-
                     </div>
-
                 </div>
-
             </div>
+
             <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="sr-only">Previous</span>
@@ -103,26 +87,19 @@ if (isset($_POST['submit'])) {
                 <span class="sr-only">Next</span>
             </a>
         </div>
-
-
     </div>
 
-    <!--  ************************* Logins ************************** -->
-
-
+    <!----------------------------- Logins --------------------------------->
     <section id="logins" class="our-blog container-fluid">
         <div class="container">
             <div class="inner-title">
-
                 <h2>Logins</h2>
             </div>
             <div class="col-sm-12 blog-cont">
                 <div class="row no-margin">
                     <div class="col-sm-4 blog-smk">
                         <div class="blog-single">
-
                             <img src="assets/images/patient.jpg" alt="">
-
                             <div class="blog-single-det">
                                 <h6>Patient Login</h6>
                                 <a href="hms/user-login.php" target="_blank">
@@ -133,9 +110,7 @@ if (isset($_POST['submit'])) {
                     </div>
                     <div class="col-sm-4 blog-smk">
                         <div class="blog-single">
-
                             <img src="assets/images/doctor.jpg" alt="">
-
                             <div class="blog-single-det">
                                 <h6>Doctors login</h6>
                                 <a href="hms/doctor" target="_blank">
@@ -144,50 +119,29 @@ if (isset($_POST['submit'])) {
                             </div>
                         </div>
                     </div>
-
                     <div class="col-sm-4 blog-smk">
                         <div class="blog-single">
-
                             <img src="assets/images/admin.jpg" alt="">
-
                             <div class="blog-single-det">
                                 <h6>Admin Login</h6>
-
                                 <a href="hms/admin" target="_blank">
                                     <button class="btn btn-success btn-sm">Click Here</button>
                                 </a>
                             </div>
                         </div>
                     </div>
-
-
-
-
-
-
                 </div>
             </div>
-
         </div>
     </section>
 
-
-
-
-
-
-
-    <!-- ################# Our Departments Starts Here#######################--->
-
-
+    <!-------------------------------- Our Departments Starts Here ----------------------------->
     <section id="services" class="key-features department">
         <div class="container">
             <div class="inner-title">
-
                 <h2>Our Key Features</h2>
                 <p>Take a look at some of our key features</p>
             </div>
-
             <div class="row">
                 <div class="col-lg-4 col-md-6">
                     <div class="single-key">
@@ -195,37 +149,30 @@ if (isset($_POST['submit'])) {
                         <h5>Cardiology</h5>
                     </div>
                 </div>
-
                 <div class="col-lg-4 col-md-6">
                     <div class="single-key">
                         <i class="fas fa-ribbon"></i>
                         <h5>Orthopaedic</h5>
                     </div>
                 </div>
-
                 <div class="col-lg-4 col-md-6">
                     <div class="single-key">
                         <i class="fab fa-monero"></i>
                         <h5>Neurologist</h5>
                     </div>
                 </div>
-
                 <div class="col-lg-4 col-md-6">
                     <div class="single-key">
                         <i class="fas fa-capsules"></i>
                         <h5>Pharma Pipeline</h5>
                     </div>
                 </div>
-
                 <div class="col-lg-4 col-md-6">
                     <div class="single-key">
                         <i class="fas fa-prescription-bottle-alt"></i>
                         <h5>Pharma Team</h5>
                     </div>
                 </div>
-
-
-
                 <div class="col-lg-4 col-md-6">
                     <div class="single-key">
                         <i class="far fa-thumbs-up"></i>
@@ -234,40 +181,25 @@ if (isset($_POST['submit'])) {
                     </div>
                 </div>
             </div>
-
-
-
-
-
-
         </div>
-
     </section>
 
-
-
-
-    <!--  ************************* About Us Starts Here ************************** -->
-
+    <!-------------------------------- About Us Starts Here ---------------------------------->
     <section id="about_us" class="about-us">
         <div class="row no-margin">
-            <div class="col-sm-6 image-bg no-padding">
-
-            </div>
+            <div class="col-sm-6 image-bg no-padding"></div>
             <div class="col-sm-6 abut-yoiu">
                 <h3>About Our Hospital</h3>
                 <?php
                 $ret = mysqli_query($con, "select * from tblpage where PageType='aboutus' ");
                 while ($row = mysqli_fetch_array($ret)) {
                 ?>
-
                     <p><?php echo $row['PageDescription']; ?>.</p><?php } ?>
             </div>
         </div>
     </section>
 
-
-    <!--  ************************* Gallery Starts Here ************************** -->
+    <!----------------------------- Gallery Starts Here --------------------------------->
     <div id="gallery" class="gallery">
         <div class="container">
             <div class="inner-title">
@@ -276,8 +208,6 @@ if (isset($_POST['submit'])) {
                 <p>View Our Gallery</p>
             </div>
             <div class="row">
-
-
                 <div class="gallery-filter d-none d-sm-block">
                     <button class="btn btn-default filter-button" data-filter="all">All</button>
                     <button class="btn btn-default filter-button" data-filter="hdpe">Dental</button>
@@ -286,8 +216,6 @@ if (isset($_POST['submit'])) {
                     <button class="btn btn-default filter-button" data-filter="irrigation">Laboratry</button>
                 </div>
                 <br />
-
-
 
                 <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter hdpe">
                     <img src="assets/images/gallery/gallery_01.jpg" class="img-responsive">
@@ -308,26 +236,17 @@ if (isset($_POST['submit'])) {
                 <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter spray">
                     <img src="assets/images/gallery/gallery_05.jpg" class="img-responsive">
                 </div>
-
-
-
                 <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter spray">
                     <img src="assets/images/gallery/gallery_06.jpg" class="img-responsive">
                 </div>
-
             </div>
         </div>
-
-
     </div>
-    <!-- ######## Gallery End ####### -->
+    <!--------------------------------------- Gallery End ------------------------------------------>
 
-
-    <!--  ************************* Contact Us Starts Here ************************** -->
-
+    <!---------------------------------- Contact Us Starts Here ------------------------------------>
     <section id="contact_us" class="contact-us-single">
         <div class="row no-margin">
-
             <div class="col-sm-12 cop-ck">
                 <form method="post">
                     <h2>Contact Form</h2>
@@ -357,21 +276,13 @@ if (isset($_POST['submit'])) {
                     </div>
                 </form>
             </div>
-
         </div>
     </section>
 
-
-
-
-
-    <!-- ################# Footer Starts Here#######################--->
-
-
+    <!------------------------------------ Footer Starts Here ----------------------------------------->
     <footer class="footer">
         <div class="container">
             <div class="row">
-
                 <div class="col-md-6 col-sm-12">
                     <h2>Useful Links</h2>
                     <ul class="list-unstyled link-list">
@@ -385,38 +296,23 @@ if (isset($_POST['submit'])) {
                 <div class="col-md-6 col-sm-12 map-img">
                     <h2>Contact Us</h2>
                     <address class="md-margin-bottom-40">
-
                         <?php
                         $ret = mysqli_query($con, "select * from tblpage where PageType='contactus' ");
                         while ($row = mysqli_fetch_array($ret)) {
                         ?>
-
-
                             <?php echo $row['PageDescription']; ?> <br>
                             Phone: <?php echo $row['MobileNumber']; ?> <br>
                             Email: <a href="mailto:<?php echo $row['Email']; ?>" class=""><?php echo $row['Email']; ?></a><br>
                             Timing: <?php echo $row['OpenningTime']; ?>
                     </address>
-
                 <?php } ?>
-
-
-
-
-
                 </div>
             </div>
         </div>
-
-
     </footer>
+
     <div class="copy">
-        <div class="container">
-            Hospital Management System
-
-
-        </div>
-
+        <div class="container">Hospital Management System</div>
     </div>
 
 </body>
@@ -427,9 +323,6 @@ if (isset($_POST['submit'])) {
 <script src="assets/plugins/scroll-nav/js/jquery.easing.min.js"></script>
 <script src="assets/plugins/scroll-nav/js/scrolling-nav.js"></script>
 <script src="assets/plugins/scroll-fixed/jquery-scrolltofixed-min.js"></script>
-
 <script src="assets/js/script.js"></script>
-
-
 
 </html>
