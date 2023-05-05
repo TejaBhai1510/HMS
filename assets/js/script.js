@@ -9,9 +9,6 @@ $( document ).ready(function() {
     
 })
 
-
-
-
 $(document).ready(function(){
 
     $(".filter-button").click(function(){
@@ -38,4 +35,3 @@ $(this).removeClass("active");
 $(this).addClass("active");
 
 });
-
